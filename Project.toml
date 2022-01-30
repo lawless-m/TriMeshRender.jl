@@ -1,0 +1,17 @@
+name = "TriMeshRender"
+uuid = "be30d44f-2d4f-4853-90b1-79d160e65e90"
+authors = ["Matt Lawless"]
+version = "0.1.0"
+
+[deps]
+Luxor = "ae8d54c2-7ccd-5906-9d76-62fc9837b5bc"
+TriMeshes = "017885df-44d7-498c-8344-6c32d2071748"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
